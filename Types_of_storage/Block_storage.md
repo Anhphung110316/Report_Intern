@@ -22,14 +22,14 @@
 
 ## Ưu và nhược điểm của Block storage
 
-Ưu điểm của Block storage:
+**Ưu điểm của Block storage:**
 
    * Tốc độ truy xuất nhanh: Block storage cho phép truy xuất dữ liệu với tốc độ nhanh hơn so với các loại lưu trữ khác. Việc phân chia dữ liệu thành các khối giúp cho người dùng có thể truy xuất dữ liệu nhanh chóng và hiệu quả.
    * Linh hoạt trong việc quản lý dữ liệu: Block storage cung cấp tính năng linh hoạt trong việc quản lý dữ liệu, cho phép người dùng tăng hoặc giảm dung lượng lưu trữ dựa trên nhu cầu thực tế của họ.
    * Độ tin cậy cao: Block storage cung cấp các tính năng bảo mật và quản lý dữ liệu để đảm bảo tính sẵn sàng và độ tin cậy của hệ thống lưu trữ.
    * Khả năng mở rộng dễ dàng: Block storage cho phép người dùng mở rộng dung lượng lưu trữ bằng cách thêm mới các thiết bị lưu trữ hoặc thêm mới các khối dữ liệu vào hệ thống.
 
-## Nhược điểm của Block storage:
+**Nhược điểm của Block storage:**
 
    * Giá thành cao: Block storage thường có giá thành cao hơn so với các loại lưu trữ khác.
    * Khó khăn trong việc quản lý: Block storage yêu cầu kiến thức chuyên môn và kỹ năng quản lý để sử dụng và bảo trì.
