@@ -11,7 +11,7 @@
 
 - SAN (Storage Area Network) là một mạng quang riêng tốc độ cao dùng cho việc truyền dữ liệu giữa các máy chủ tham gia vào hệ thống lưu trữ cũng như giữa các thiết bị lưu trữ với nhau. SAN cho phép thực hiện quản lý tập trung và cung cấp khả năng chia sẻ dữ liệu và tài nguyên lưu trữ. Hầu hết mạng SAN hiện nay dựa trên công nghệ kênh cáp quang, cung cấp cho người sử dụng khả năng mở rộng, hiệu năng và tính sẵn sàng cao.
 
-### 1.2. Thành phần
+### 1.2. Đặc điểm
 
 - Hệ thống SAN được chia làm hai mức: mức vật lý và logic
    - Mức vật lý: mô tả sự liên kết các thành phần của mạng tạo ra một hệ thống lưu trữ đồng nhất và có thể sử dụng đồng thời cho nhiều ứng dụng và người dùng.
@@ -29,7 +29,20 @@
 
 - Có khả năng mở rộng tốt trên cả phương diện số lượng thiết bị, dung lượng hệ thống cũng như khoảng cách vật lý.
 
-## 2.iSCSI protocol
+## 2.Công nghệ kết nối iSCSIs
+
+- iSCSI hay Internet Small Computer Systems Interface là một giao thức lớp vận chuyển hoạt động dựa trên TCP/IP, cho phép các thiết bị lưu trữ truyền dữ liệu qua mạng IP thay vì sử dụng đường truyền cáp quang như Fibre Channel.
+
+- Các thành phần chính của iSCSI bao gồm:
+
+   - iSCSI initiator: Là phần mềm hoặc card mạng được cài đặt trên máy chủ, cho phép máy chủ truy cập các thiết bị lưu trữ iSCSI.
+   - iSCSI target: Là thiết bị lưu trữ hỗ trợ giao thức iSCSI, được kết nối với mạng LAN thông qua adapter đặc biệt.
+
+Trong mạng SAN sử dụng iSCSI, các máy chủ được kết nối với iSCSI target thông qua mạng LAN. Các iSCSI initiator trên máy chủ sử dụng giao thức TCP/IP để truyền dữ liệu đến iSCSI target. Các iSCSI target cũng được kết nối với mạng LAN thông qua adapter chuyên dụng và sử dụng giao thức iSCSI để truyền dữ liệu đến các máy chủ.
+
+<img src="Picture/san2.jpg" />
+
+### 2.1. iCSI protocol
 
 - iSCSI (Internet Small Computer Systems Interface) là là giao thức Internet thuộc tầng application để lưu trữ thông qua Internet. Nó cung cấp truy cập block-level để truy cập thiết bị lưu trữ.
 - iSCSI được sử dụng để truyền data qua LAN, WAN hoặc Internet.
