@@ -1,7 +1,6 @@
 # Phân biệt và so sánh 3 loại lưu trữ Object Storage, Block Storage và File Storage
 
 
-![Hình ảnh ví dụ](https://sunteco.vn/wp-content/uploads/2024/06/d.png)
 <img src="Picture/d.png" />
 
 

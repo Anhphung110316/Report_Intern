@@ -8,7 +8,7 @@
 
 * Block storage cung cấp tính năng linh hoạt về việc phân chia và quản lý dữ liệu, cho phép người dùng tăng hoặc giảm dung lượng lưu trữ dựa trên nhu cầu thực tế của họ. Ngoài ra, block storage cũng cung cấp tính năng bảo mật dữ liệu bằng cách sử dụng các công nghệ mã hóa và các tính năng kiểm soát truy cập để đảm bảo an toàn và bảo mật dữ liệu.
 
-![Hình ảnh ví dụ](https://cloud.z.com/vn/wp-content/uploads/2023/04/Screenshot_3-2.png)
+<img src="Picture/Screenshot_3-2.png" />
 
 ## Cách Block storage hoạt động
 
