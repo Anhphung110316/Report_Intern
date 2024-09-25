@@ -2,6 +2,7 @@
 
 
 ![Hình ảnh ví dụ](https://sunteco.vn/wp-content/uploads/2024/06/d.png)
+<img src="Picture/d.png" />
 
 
 ## Bảng so sánh tính năng của 3 loại lưu trữ
