@@ -17,7 +17,7 @@
    - Mức vật lý: mô tả sự liên kết các thành phần của mạng tạo ra một hệ thống lưu trữ đồng nhất và có thể sử dụng đồng thời cho nhiều ứng dụng và người dùng.
    - Mức logic: bao gồm các ứng dụng, các công cụ quản lý và dịch vụ được xây dựng trên nền tảng của các thiết bị lớp vật lý, cung cấp khả năng quản lý hệ thống SAN.
 
-<img src="Picture/san1111.webp" />
+<img src="Picture/san11111.webp" />
 
 - Ưu điểm của hệ thống SAN
 
