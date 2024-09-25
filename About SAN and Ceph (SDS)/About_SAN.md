@@ -7,6 +7,28 @@
 - SAN thường có mạng lưới lưu trữ riêng mà không thông qua mạng LAN với các thiết bị khác.
 - SAN sử dụng các giao thức sau: Fibre Channel, iSCSI, ATA over Ethernet (AoE) and HyperSCSI.
 
+### 1.1.Khái niệm 
+
+- SAN (Storage Area Network) là một mạng quang riêng tốc độ cao dùng cho việc truyền dữ liệu giữa các máy chủ tham gia vào hệ thống lưu trữ cũng như giữa các thiết bị lưu trữ với nhau. SAN cho phép thực hiện quản lý tập trung và cung cấp khả năng chia sẻ dữ liệu và tài nguyên lưu trữ. Hầu hết mạng SAN hiện nay dựa trên công nghệ kênh cáp quang, cung cấp cho người sử dụng khả năng mở rộng, hiệu năng và tính sẵn sàng cao.
+
+### 1.2. Thành phần
+
+- Hệ thống SAN được chia làm hai mức: mức vật lý và logic
+   - Mức vật lý: mô tả sự liên kết các thành phần của mạng tạo ra một hệ thống lưu trữ đồng nhất và có thể sử dụng đồng thời cho nhiều ứng dụng và người dùng.
+   - Mức logic: bao gồm các ứng dụng, các công cụ quản lý và dịch vụ được xây dựng trên nền tảng của các thiết bị lớp vật lý, cung cấp khả năng quản lý hệ thống SAN.
+
+<img src="Picture/san1111.webp" />
+
+- Ưu điểm của hệ thống SAN
+
+   - Có khả năng sao lưu dữ liệu với dung lượng lớn và thường xuyên mà không làm ảnh hưởng đến lưu lượng thông tin trên mạng.
+   - SAN đặc biệt thích hợp với các ứng dụng cần tốc độ và độ trễ nhỏ.
+   - Dữ liệu luôn ở mức độ sẵn sàng cao.
+   - Dữ liệu được lưu trữ thống nhất, tập trung và có khả năng quản lý cao. Có khả năng khôi phục dữ liệu nếu có xảy ra sự cố.
+   - Hỗ trợ nhiều giao thức, chuẩn lưu trữ khác nhau như: iSCSI, FCIP, DWDM...
+
+- Có khả năng mở rộng tốt trên cả phương diện số lượng thiết bị, dung lượng hệ thống cũng như khoảng cách vật lý.
+
 ## 2.iSCSI protocol
 
 - iSCSI (Internet Small Computer Systems Interface) là là giao thức Internet thuộc tầng application để lưu trữ thông qua Internet. Nó cung cấp truy cập block-level để truy cập thiết bị lưu trữ.
