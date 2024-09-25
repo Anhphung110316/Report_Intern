@@ -10,7 +10,9 @@ Một điểm khác biệt quan trọng của object storage so với block stor
 
 Object storage thường được sử dụng cho các ứng dụng lưu trữ dữ liệu lớn như hình ảnh, video, âm thanh, tài liệu và các ứng dụng trên đám mây.
  
- <img src="Picture/dsad.png" />
+ <div style="text-align: center;">
+    <img src="Picture/dsad.png" alt="Ảnh mô tả" />
+</div>
 
 ## Cách Object storage hoạt động
 
