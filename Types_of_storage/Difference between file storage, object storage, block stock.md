@@ -1,4 +1,10 @@
+#Phân biệt và so sánh 3 loại lưu trữ Object Storage, Block Storage và File Storage
 
+
+![Hình ảnh ví dụ](https://sunteco.vn/wp-content/uploads/2024/06/d.png)
+
+
+## Bảng so sánh tính năng của 3 loại lưu trữ
 
 | Tính năng | Object Storage | File Storage | Block Storage |
 |-----------|----------------|--------------|---------------|
@@ -11,9 +17,7 @@
 | Ứng dụng | Lưu trữ dữ liệu phi cấu trúc (hình ảnh, video, nhật ký), lưu trữ dự phòng | Chia sẻ tệp, lưu trữ ứng dụng | Hệ thống cơ sở dữ liệu, ảo hóa |
 
 
-![Hình ảnh ví dụ](https://sunteco.vn/wp-content/uploads/2024/06/d.png)
-
-## So sánh
+## Sự khác nhau giữa Object Storage, Block Storage và File Storage
 
 * Object storage bao gồm nhiều object lưu trữ dữ liệu không cấu trúc như ảnh, file, video. Cách thức truy cập dựa trên giao thức HTTP và thông tin của object được lưu trữ và quản lý trong metadata. Nên lưu trữ đối tượng phù hợp để chia sẻ file ứng dụng cho các triển khai với khả năng mở rộng cao, multi-site.
 
