@@ -6,7 +6,7 @@
 
 Các hệ thống lưu trữ file thường được tổ chức và quản lý để giúp người dùng tìm kiếm, truy cập, chia sẻ, sao lưu và bảo vệ dữ liệu của mình. Các công nghệ lưu trữ file hiện nay bao gồm các hệ thống lưu trữ đám mây, ổ cứng ngoài, NAS (Network Attached Storage), SAN (Storage Area Network) và các loại hệ thống lưu trữ khác.
 
-<img src="Picture/img.png" />
+<img src="Picture/img.jpeg" />
 
 ## Cách File storage hoạt động
 
