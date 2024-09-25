@@ -12,3 +12,11 @@
 
 
 ![Hình ảnh ví dụ](https://sunteco.vn/wp-content/uploads/2024/06/d.png)
+
+## So sánh
+
+* Object storage bao gồm nhiều object lưu trữ dữ liệu không cấu trúc như ảnh, file, video. Cách thức truy cập dựa trên giao thức HTTP và thông tin của object được lưu trữ và quản lý trong metadata. Nên lưu trữ đối tượng phù hợp để chia sẻ file ứng dụng cho các triển khai với khả năng mở rộng cao, multi-site.
+
+* Còn dữ liệu trong Block storage được tổ chức trong block IDs. Và được tổ chức có cấu trúc hoặc các ứng dụng có cấu trúc. Client trong hệ điều hành kết nối với Block Storage thông qua Fibre Channel hoặc iSCSI hoặc sử dụng các thiết bị (DASD). Block Storage phù hợp cho các thông tin dưới dạng giao dịch hoặc có cấu trúc như file systems, databases, transactional logs, swap space, hoặc cho các VMs.
+
+* Đối với File Storage, dữ liệu được lưu trữ dưới dạng file IDs qua mạng chia sẻ trên server. NFS và SMB là 2 giao thức phổ biến sử dụng để truy cập File Storage. Storage server hoặc cụm ổ đĩa sử dụng block storage với hệ thống file nội bộ để quản lý các file này. Và clients chỉ tương tác thông qua protocol và đường dẫn file. Các thuộc tính cố định như type, size, date created và date modified được lưu trữ trong hệ thống file.
