@@ -24,7 +24,7 @@ Hệ thống object storage cung cấp một giao diện API để cho phép ng�
 
 Một số hệ thống object storage cũng cung cấp các tính năng bảo mật và quản lý dữ liệu để đảm bảo tính sẵn sàng và độ tin cậy của hệ thống lưu trữ.
 
-##Ưu và nhược điểm của Object storage
+## Ưu và nhược điểm của Object storage
 
 - Ưu điểm của Object storage:
 
@@ -65,14 +65,3 @@ Một số hệ thống object storage cũng cung cấp các tính năng bảo m
 
 Nói chung, bất kỳ đối tượng khách hàng nào có nhu cầu lưu trữ dữ liệu với dung lượng lớn, tốc độ truy xuất nhanh và chi phí thấp đều có thể sử dụng giải pháp Object Storage.
 
-
-1. Mục 1
-2. Mục 2
-
-### Khối trích dẫn:
-> Đây là một khối trích dẫn.
-
-### Mã nguồn:
-```python
-def hello_world():
-    print("Hello, world!")
