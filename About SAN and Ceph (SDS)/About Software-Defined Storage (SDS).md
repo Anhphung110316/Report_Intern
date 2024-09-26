@@ -1,13 +1,12 @@
-# SAN
+# Software-Defined Storage (SDS)
 
-## 1. Tổng quan
+## 1.Tổng quan
 
-- SAN (Storage area network) là kỹ thuật lưu trữ dữ liệu dạng block-level thông qua kết nối mạng.
-- SAN được sử dụng để tăng khả năng lưu trữ của thiết bị, như disk arrays, tape libraries, etc.
-- SAN thường có mạng lưới lưu trữ riêng mà không thông qua mạng LAN với các thiết bị khác.
-- SAN sử dụng các giao thức sau: Fibre Channel, iSCSI, ATA over Ethernet (AoE) and HyperSCSI.
+* Software-Defined Storage (SDS) là một kiểu lưu trữ dựa trên phần mềm, trong đó các tính năng và chức năng của hệ thống lưu trữ được tách ra và quản lý bởi phần mềm chứ không phụ thuộc vào phần cứng như truyền thống. SDS cho phép việc quản lý linh hoạt, tổ chức tài nguyên lưu trữ hiệu quả và tăng khả năng mở rộng.
 
-### 1.1. Khái niệm 
+* Bằng cách sử dụng SDS, doanh nghiệp có thể tạo ra một môi trường lưu trữ đồng nhất, quản lý và vận hành từ một điểm duy nhất, dễ dàng mở rộng, tích hợp và tối ưu hóa tài nguyên lưu trữ.
+
+### 1.1.Khái niệm 
 
 - SAN (Storage Area Network) là một mạng quang riêng tốc độ cao dùng cho việc truyền dữ liệu giữa các máy chủ tham gia vào hệ thống lưu trữ cũng như giữa các thiết bị lưu trữ với nhau. SAN cho phép thực hiện quản lý tập trung và cung cấp khả năng chia sẻ dữ liệu và tài nguyên lưu trữ. Hầu hết mạng SAN hiện nay dựa trên công nghệ kênh cáp quang, cung cấp cho người sử dụng khả năng mở rộng, hiệu năng và tính sẵn sàng cao.
 
@@ -29,7 +28,7 @@
 
 - Có khả năng mở rộng tốt trên cả phương diện số lượng thiết bị, dung lượng hệ thống cũng như khoảng cách vật lý.
 
-## 2. Công nghệ kết nối iSCSIs
+## 2.Công nghệ kết nối iSCSIs
 
 - iSCSI hay Internet Small Computer Systems Interface là một giao thức lớp vận chuyển hoạt động dựa trên TCP/IP, cho phép các thiết bị lưu trữ truyền dữ liệu qua mạng IP thay vì sử dụng đường truyền cáp quang như Fibre Channel.
 
@@ -51,9 +50,9 @@ Trong mạng SAN sử dụng iSCSI, các máy chủ được kết nối với i
    - Target: là nơi chứa thiết bị lưu trữ data gọi – iSCSI server.
 - iSCSI sử dụng giao thức TCP (tiêu biểu là port 860 và 3260)
 
-## 3. LAB iSCSI protocol
+## 3.LAB iSCSI protocol
 
-### 3.1. Tổng quan
+### 3.1.Tổng quan
 
 Mô hình:
 
