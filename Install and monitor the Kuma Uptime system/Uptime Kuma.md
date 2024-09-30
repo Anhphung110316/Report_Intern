@@ -67,15 +67,15 @@ Status: Downloaded newer image for louislam/uptime-kuma:1
 - Để thiết lập phương thức nhận thông báo qua Telegram, truy cập theo hình như sau:
   <img src="Picture/uptime-kuma-14.webp" />
 
-  1. Notification Type: Chọn kênh nhận thông báo, ở đây mình chọn Telegram
-  2. Friendly Name: Đặt tên cho thông báo (Bạn có thể đặt tên tuỳ ý)
+  1. Notification Type: Chọn kênh nhận thông báo Telegram
+  2. Friendly Name: Đặt tên cho thông báo
   3. Bot Token: Nhập mã Token Telegram
   4. ID Chat: Nhập ID Bot hoặc ID Group Telegram
    <img src="Picture/uptime-kuma-15.png" />
 
- - Nhập thông tin xong bạn nhấn Save lại.
+ - Nhập thông tin xong nhấn Save lại.
  - Thêm website cần giám sát
- - Để thêm một hành động giám sát mới, tại giao diện Uptime Kuma bạn click chọn Add New Monitor
+ - Để thêm một hành động giám sát mới, tại giao diện Uptime Kuma click chọn Add New Monitor
    <img src="Picture/uptime-kuma-16.webp" />
    
  - Thiết lập thành công sẽ thấy list danh sách giám sát đã thêm ở Dashboard.
