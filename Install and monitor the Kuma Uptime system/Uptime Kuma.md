@@ -61,11 +61,11 @@ Status: Downloaded newer image for louislam/uptime-kuma:1
   <img src="Picture/uptime-kuma-1.png" />
   
 - Đăng nhập thành công sẽ có giao diện quản trị như hình.
-  <img src="Picture/uptime-kuma-13.png" />
+  <img src="Picture/uptime-kuma-13.webp" />
 
 - Thiết lập phương thức nhận thông báo qua Telegram
 - Để thiết lập phương thức nhận thông báo qua Telegram, truy cập theo hình như sau:
-  <img src="Picture/uptime-kuma-14.png" />
+  <img src="Picture/uptime-kuma-14.webp" />
   
   
   
