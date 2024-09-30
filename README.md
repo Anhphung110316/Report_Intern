@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Note for Intern
-=======
 # Report_Intern
 
 ## Nội dung tìm hiểu
@@ -15,5 +12,4 @@
 
 ## Trong quá trình tìm hiểu các kiến thức và cài đặt các gói rút ra được nhiều kinh nghiệm sửa lỗi và những command mới trong quá trình học
 
--
->>>>>>> 9448e8c3752ad473c63416ef6dc6201fea1de31a
+
