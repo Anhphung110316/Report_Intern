@@ -76,7 +76,12 @@ Status: Downloaded newer image for louislam/uptime-kuma:1
  - Nhập thông tin xong bạn nhấn Save lại.
  - Thêm website cần giám sát
  - Để thêm một hành động giám sát mới, tại giao diện Uptime Kuma bạn click chọn Add New Monitor
-   <img src="Picture/uptime-kuma-16.png" />
+   <img src="Picture/uptime-kuma-16.webp" />
+   
+ - Thiết lập thành công sẽ thấy list danh sách giám sát đã thêm ở Dashboard.
+   <img src="Picture/uptime-kuma-17.png" />
 
+ - Giao diện theo dõi HTTP(s) của web VNPT
+   <img src="Picture/uptime-kuma-18.png" /> 
   
   
