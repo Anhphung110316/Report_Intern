@@ -10,5 +10,5 @@
 
 # Báo cáo slide
 
-* https://www.canva.com/design/DAGSNwF2O8c/QprA2n6QOPLdNOVU2DWDkQ/edit?utm_content=DAGSNwF2O8c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+* https://www.canva.com/design/DAGSNwF2O8c/2dibgAOJV2qLGQFBq8waNA/view?utm_content=DAGSNwF2O8c&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
