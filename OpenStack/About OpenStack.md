@@ -36,3 +36,14 @@
   - Dentity Server: quản lý xác thực cho user và projects.
   - OpenStack Netwok: là thành phần quản lý network cho các máy ảo. Cung cấp chức năng network as a service. Đây là hệ thống có các tính chất pluggable, scalable và API-driven.
   - OpenStack dashboard: cung cấp cho người quản trị cũng như người dùng giao diện đồ họa để truy cập, cung cấp và tự động tài nguyên cloud. Việc thiết kế có thể mở rộng giúp dễ dàng thêm vào các sản phẩm cũng như dịch vụ ngoài như billing, monitoring và các công cụ giám sát khác.
+
+5. Mô hình giải pháp
+* Mô hình giải pháp: Điện toán đám mây OpenStack được các nhà cung cấp dịch vụ phát triển qua 3 giải pháp:
+  - IaaS (Infrastructure as a service): cung cấp/cho thuê cơ sở hạ tầng như thuê máy chủ…
+  - PaaS (Platform as a service): cung cấp nền tảng để phát triển ứng dụng
+  - SaaS (Software as a service): cung cấp khả năng truy cập phần mềm linh hoạt như HCM,CRM…
+* Mô hình triển khai:
+  - Private Cloud: sử dụng trong một doanh nghiệp và không chia sẻ với bất kỳ ai nằm ngoài doanh nghiệp đóng
+  - Public Cloud: các dịch vụ trên nền tảng điện toán đám mây được dành cho cá nhân, tổ chức cùng thuê và sử dụng chung tài nguyên
+  - Hybrid Cloud: mô hình lai giữa public cloud và private cloud
+  - Community Cloud: các dịch vụ được các công ty cùng hợp tác xây dựng và cung cấp cho cộng đồng sử dụng
