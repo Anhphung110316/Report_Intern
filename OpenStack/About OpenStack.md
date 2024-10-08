@@ -20,7 +20,7 @@
 * OpenStack được chia thành các dịch vụ để cho phép cắm và chạy các thành phần tùy theo nhu cầu. Bản đồ openstack cung cấp cái nhìn "tổng quan" về bối cảnh openstack để xem các dịch vụ đó phù hợp ở đâu và chúng có thể hoạt động cùng nhau như thế nào.
 
 <p align="center">
- <img src="Picture/boicanh.jpg" width="500" height="300" />
+ <img src="Picture/boicanh_page-0001.jpg" />
 </p>
  
 4. Các thành phần của OpenStack
