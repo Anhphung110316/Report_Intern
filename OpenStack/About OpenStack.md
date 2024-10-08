@@ -1,5 +1,4 @@
 # Về OpenStack
 
-1. Khái niệm 
-* OpenStack là một bộ công cụ phần mềm, để xây dựng và quản lý nền tảng điện toán đám mây cho các đám mây công cộng và riêng tư. 
-* Được hỗ trợ bởi một số công ty lớn nhất về phát triển phần mềm và lưu trữ.
+1. Sơ lược về OpenStack 
+* OpenStack là hệ điều hành đám mây kiểm soát nhiều tài nguyên tính toán, lưu trữ và mạng trong một trung tâm dữ liệu, tất cả đều được quản lý và cung cấp thông qua API với cơ chế xác thực chung.
