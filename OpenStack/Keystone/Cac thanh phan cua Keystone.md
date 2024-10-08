@@ -7,15 +7,30 @@
 * Mục đích cơ bản nhất của Keystone chính là nơi để đăng ký cho các projects và xác định ai được phép truy cập project đó.
 * Bản thân projects không sở hữu users hay groups mà users và groups được cấp quyền truy cập tới project sử dụng cơ chế gán role.
 * Trong một vài tài liệu của OpenStack thì việc gán role cho user còn được gọi là "grant".
+
+<p align="center">
+ <img src="Picture/project.png" width="500" height="300" />
+</p>
+
 ### 1.2. Domains
 * Trong thời kì đầu, không có bất cứ cơ chế nào để hạn chế sự xuất hiện của các project tới những nhóm user khác nhau. Điều này có thể gây ra những sự nhầm lẫn hay xung đột không đáng có giữa các tên của project của các tổ chức khác nhau.
 * Tên user cũng vậy và nó hoàn toàn cũng có thể dẫn tới sự nhầm lẫn nếu hai tổ chức có user có tên giống nhau.
 * Vì vậy mà khái niệm Domain ra đời, nó được dùng để cô lập danh sách các Projects và Users.
 * Domain được định nghĩa là một tập hợp các users, groups, và projects. Nó cho phép người dùng chia nguồn tài nguyên cho từng tổ chức sử dụng mà không phải lo xung đột hay nhầm lẫn.
+
+<p align="center">
+ <img src="Picture/domain.png" width="500" height="300" />
+</p>
+
 ### 1.3. Users và User Group (Actor)
 * Trong keystone, Users và User Groups là những đối tượng được cấp phép truy cập tới các nguồn tài nguyên được cô lập trong domains và projects.
-Groups là một tập hợp các users. Users và User Groups gọi là actor
+* Groups là một tập hợp các users. Users và User Groups gọi là actor
 Mối quan hệt giữa domains, projects, users và groups:
+
+<p align="center">
+ <img src="Picture/user.png" width="500" height="300" />
+</p>
+
 ### 1.4. Roles
 * Roles được dùng để hiện thực hóa việc cấp phép trong keystone. Một actor có thể có nhiều roles đối với từng project khác nhau.
 * Role được gán cho user và trên một project cụ thể ("assigned to" user, "assigned on" project)
