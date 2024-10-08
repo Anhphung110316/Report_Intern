@@ -43,6 +43,6 @@ Trong môi trường Openstack, điểm quan trọng trong bảo mật cloud ch�
 * Các quá trình xử lý các tiến trình trong OPS với sự xác thực của Keystone được miêu tả như hình sau:
 
 <p align="center">
- <img src="Picture/Qtrinh.png" width="500" height="300" />
+ <img src="Picture/Qtrinh.png" />
 </p>
 
