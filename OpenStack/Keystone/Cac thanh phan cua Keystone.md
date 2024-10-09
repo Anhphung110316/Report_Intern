@@ -44,7 +44,16 @@ Mối quan hệt giữa domains, projects, users và groups:
 * Để user truy cập bất cứ OpenStack API nào thì user cần chúng minh họ là ai và họ được phép gọi tới API. Để làm được điều này, họ cần có token và "dán" chúng vào "API call". Keystone chính là service chịu trách nhiệm tạo ra tokens.
 * Sau khi được xác thực thành công bởi keystone thì user sẽ nhận được token. Token cũng chứa các thông tin ủy quyền của user trên cloud.
 * Token có cả phần ID và payload. ID được dùng để đảm bảo rằng nó là duy nhất trên mỗi cloud và payload chứa thông tin của user.
+
+<p align="center">
+ <img src="Picture/token.png" width="500" height="300" />
+</p>
+
 ### 1.8. Catalog
 * Chứa URLs và endpoints của các services khác nhau.
 * Nếu không có Catalog, users và các ứng dụng sẽ không thể biết được nơi cần chuyển yêu cầu để tạo máy ảo hoặc lưu dữ liệu.
 * Service này được chia nhỏ thành danh sách các endpoints và mỗi một endpoint sẽ chứa admin URL, internal URL, and public URL.
+
+<p align="center">
+ <img src="Picture/catalog.png" width="500" height="300" />
+</p>
