@@ -43,7 +43,7 @@ def _get_token_id(self, token_data):
 **Quá trình tạo token**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_49.png" width="500" height="300" />
 </p>
 
 * User request tới keystone tạo token với các thông tin: user name, password, project name
@@ -57,7 +57,7 @@ def _get_token_id(self, token_data):
 **Quá trình xác thực token** 
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_50.png" width="500" height="300" />
 </p>
 
 - Gửi yêu cầu chứng thực token sử dụng API: `GET v3/auth/tokens` và token (X-Subject-Token, X-Auth-Token)
@@ -70,7 +70,7 @@ def _get_token_id(self, token_data):
 **Quá trình thu hồi token**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_51.png" width="500" height="300" />
 </p>
 
 - Gửi yêu cầu thu hồi token với API request `DELETE v3/auth/tokens`. Trước khi thực hiện sự kiện thu hồi token thì phải chứng thực token nhờ vào tiến trình Token Validation Workflow đã trình bày ở trên.
@@ -83,7 +83,7 @@ Cập nhật vào token database, thiết lập lại trường "valid" thành f
 **Multiple Data Centers**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_52.png" width="500" height="300" />
 </p>
 
 * UUID Token không hỗ trợ xác thực và ủy quyền trong trường hợp multiple data centers bởi token được lưu dưới dạng persistent (cố định và không thể thay đổi). Như ví dụ mô tả ở hình trên, một hệ thống cloud triển khai trên hai datacenter ở hai nơi khác nhau. Khi xác thực với keystone trên datacenter W và sử dụng token trả về để request tạo một máy ảo với Nova, yêu cầu hoàn toàn hợp lệ và khởi tạo máy ảo thành công. Trong khi nếu mang token đó sang datacenter E yêu cầu tạo máy ảo thì sẽ không được xác nhận do token trong backend database W không có bản sao bên E.
@@ -170,7 +170,7 @@ S7waA306jyKNhHwUnpsBQ%3D
 **Fernet Key rotation**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_56.png" width="500" height="300" />
 </p>
 
 * Giả sử triển khai hệ thống cloud với keystone ở hai bên `W` và `E`. Cả hai repo này đều được thiết lập với 3 fernet key như sau:
@@ -211,7 +211,7 @@ Version ‖ Timestamp ‖ IV ‖ Ciphertext ‖ HMAC
 **Token Generation Workflow**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_57.png" width="500" height="300" />
 </p>
 
 * Với key và message nhận được, quá trình tạo fernet token như sau:
@@ -228,7 +228,7 @@ Version ‖ Timestamp ‖ IV ‖ Ciphertext ‖ HMAC
 **Token validation workflow**
 
 <p align="center">
- <img src="Picture/user.png" width="500" height="300" />
+ <img src="Picture/Screenshot_58.png" width="500" height="300" />
 </p>
 
 - Gửi yêu cầu xác thực token với API GET v3/auth/tokens
