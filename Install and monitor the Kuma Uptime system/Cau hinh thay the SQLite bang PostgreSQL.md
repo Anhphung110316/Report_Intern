@@ -128,6 +128,6 @@ sudo docker cp uptime_kuma_db:/tmp/uptime_kuma_backup.sql ./uptime_kuma_backup.s
 ls -l uptime_kuma_backup.sql
 ```
 
- <img src="Picture/thanhcong2.png" />
+ <img src="Picture/thanhcong2.jpg" />
 
 * Nếu bạn thấy file uptime_kuma_backup.sql, tức là bạn đã xuất cơ sở dữ liệu thành công!
