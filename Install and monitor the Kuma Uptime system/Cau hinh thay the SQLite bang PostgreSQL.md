@@ -87,7 +87,7 @@ psql -h localhost -U uptime_user -d uptime_kuma
 
 * Sau khi kết nối xong nếu thành công sẽ hiện lên như hình dưới đây:
 
-
+ <img src="Picture/thanhcong1.jpg" />
 
 # Export file chuyển đổi dạng .sql:
 
@@ -99,7 +99,7 @@ sudo docker ps
 
 * Bạn nên thấy container uptime_kuma_db trong danh sách và trạng thái của nó là "Up".
 
-
+ <img src="Picture/checkcontainer.jpg" />
 
 ## Bước 2: Sử Dụng `pg_dump` từ Bên Trong Container
 * Thay vì chạy lệnh `pg_dump` từ máy chủ Ubuntu, hãy thực hiện nó từ bên trong container PostgreSQL:
@@ -127,5 +127,7 @@ sudo docker cp uptime_kuma_db:/tmp/uptime_kuma_backup.sql ./uptime_kuma_backup.s
 ```
 ls -l uptime_kuma_backup.sql
 ```
+
+ <img src="Picture/thanhcong2.png" />
 
 * Nếu bạn thấy file uptime_kuma_backup.sql, tức là bạn đã xuất cơ sở dữ liệu thành công!
