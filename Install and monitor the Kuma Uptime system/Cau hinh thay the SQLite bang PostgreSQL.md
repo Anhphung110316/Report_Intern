@@ -57,19 +57,27 @@ psql -h uptime_kuma_db -U uptime_user -d uptime_kuma
 ```
 * Nhớ rằng bạn sẽ cần nhập mật khẩu cho người dùng uptime_user nếu được yêu cầu.
 
-## Bước 4: Cài Uptime Kuma với PostgreSQL
-* Chạy lệnh sau để thêm cấu hình PostgreSQL vào Uptime Kuma:
+## Bước 4: Cài container PostgreSQL
+* Chạy lệnh sau để thêm PostgreSQL:
 ```
 sudo docker run --name uptime_kuma_db -e POSTGRES_USER=uptime_user -e POSTGRES_PASSWORD=1234 -e POSTGRES_DB=uptime_kuma -p 5432:5432 -d postgres:latest
 ```
 
 ## Bước 5:
+* Chạy lệnh sau để cài container Uptime Kuma với PostgreSQL vào Docker:
+```
+sudo docker run -d --name uptime_kuma --restart always -e DATABASE_URL=postgres://uptime_user:1234@uptime_kuma_db:5432/uptime_kuma -p 3002:3001 -v uptime-kuma-data:/app/data louislam/uptime-kuma:latest
+```
+ 
+ * Lưu ý ở đây vì đã có 1 container Uptime Kuma cũ dùng cổng 3001 nên đổi container này sang cổng 3002
+
+## Bước 6:
 * Khởi động lại container:
 ```
 sudo docker restart uptime_kuma_db
 ```
 
-## Bước 6: Kết Nối Uptime Kuma với PostgreSQL
+## Bước 7: Kết Nối Uptime Kuma với PostgreSQL
 * Sau khi container PostgreSQL đã khởi động thành công, hãy thử kết nối với lệnh:
 ```
 psql -h localhost -U uptime_user -d uptime_kuma
