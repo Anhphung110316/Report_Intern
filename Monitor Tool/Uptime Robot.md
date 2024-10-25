@@ -7,6 +7,8 @@
 
 * Uptime Robot kiểm tra HTTP, ping, port, từ khóa dự định và thông báo qua SMS hoặc email để thông báo cho người dùng biết rằng công việc của họ đã được hoàn thành.
 
+<img src="Picture/UptimeRobot.png" />
+
 * Công cụ này có thể được sử dụng để xem thời gian hoạt động và thời gian ngừng hoạt động của một trang web và thực hiện xác minh kỹ lưỡng cho thời gian ngừng hoạt động từ nhiều địa điểm và người dùng có thể bỏ qua thông báo thường xuyên về thời gian ngừng hoạt động từ trang web của họ bằng cách tùy chỉnh theo ý muốn.
 
 * Uptime Robot cho phép người dùng thực hiện các tác vụ mới nhất với giao diện REST API giao tiếp và cho phép chia sẻ các thống kê với đồng nghiệp, khách hàng hoặc người truy cập. Nó đi kèm với các giao thức khác nhau để giải quyết sự cố máy chủ hoặc các sự cố về mã lập trình và giữ cho các trang web hoạt động liên tục.
