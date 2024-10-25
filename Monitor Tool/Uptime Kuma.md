@@ -1,17 +1,4 @@
-# 1. Tầm quan trọng của uptime
-
-Uptime là một thước đo thời gian mà một hệ thống hoặc dịch vụ có sẵn và hoạt động mà không bị gián đoạn. Tầm quan trọng của uptime được hiểu rộng rãi trong ngữ cảnh của các hệ thống máy chủ, dịch vụ web, ứng dụng, và môi trường kinh doanh chung. Dưới đây là một số điểm quan trọng:
-
-   - Đảm bảo sẵn sàng dịch vụ: Uptime là một chỉ số quan trọng để đo lường khả năng sẵn sàng của dịch vụ. Một số ứng dụng quan trọng, như trang web thương mại điện tử, dịch vụ ngân hàng trực tuyến, và ứng dụng doanh nghiệp, yêu cầu sự liên tục và không gián đoạn để đảm bảo rằng người dùng có thể truy cập vào bất cứ lúc nào.
-   - Giảm thiểu tác động kinh doanh: Mất mát uptime có thể ảnh hưởng nghiêm trọng đến doanh nghiệp. Nó có thể dẫn đến mất mát doanh thu, tổn thất khách hàng, và tổn thất uy tín doanh nghiệp. Điều này đặc biệt quan trọng đối với các doanh nghiệp có hoạt động trực tuyến quan trọng.
-   - Tăng cường trải nghiệm người dùng: Người dùng hiện đại đặt kỳ vọng cao đối với sự liên tục của dịch vụ. Mất mát uptime có thể tạo ra trải nghiệm người dùng không hài lòng, ảnh hưởng đến lòng tin và sự trung thực của khách hàng đối với một dịch vụ hoặc thương hiệu.
-   - Giảm chi phí do mất mát doanh thu: Mỗi giờ, mỗi ngày mất mát uptime đều có thể dẫn đến mất mát doanh thu. Điều này bao gồm việc mất doanh thu trực tiếp và chi phí cần phải chi trả để khắc phục sự cố và khôi phục dịch vụ.
-   - Tăng cường uy tín và danh tiếng: Dịch vụ hoạt động ổn định với uptime cao giúp xây dựng uy tín và danh tiếng cho doanh nghiệp. Ngược lại, sự cố thường xuyên có thể tạo ra ấn tượng tiêu cực về mức độ chuyên nghiệp của doanh nghiệp.
-   - Đáp ứng yêu cầu hợp đồng dịch vụ: Nhiều hợp đồng dịch vụ và cam kết đối với khách hàng đều đặt ra các tiêu chuẩn về uptime. Đảm bảo tuân thủ các cam kết này không chỉ giữ cho doanh nghiệp đáp ứng yêu cầu hợp đồng mà còn giữ cho mối quan hệ khách hàng được duy trì.
-
-Uptime là yếu tố quan trọng đối với sự thành công của hệ thống và dịch vụ, ảnh hưởng trực tiếp đến khả năng phục vụ khách hàng và hiệu quả kinh doanh tổng thể.
-
-# 2. Giới thiệu về Uptime Kuma
+# Giới thiệu về Uptime Kuma
 
 Uptime Kuma là một công cụ mã nguồn mở miễn phí giúp giám sát trạng thái hoạt động của website và các dịch vụ hệ thống.
 
@@ -29,7 +16,7 @@ Thông tin và tính năng Uptime Kuma cung cấp:
    - Hỗ trợ proxy.
    - Hỗ trợ 2FA.
 
-# 3. Hướng dẫn cài đặt Uptime Kuma
+# Hướng dẫn cài đặt Uptime Kuma
 
 - Trước tiên sẽ đăng nhập SSH và cài đặt Docker cho VPS.
 
