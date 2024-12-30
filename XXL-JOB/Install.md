@@ -85,7 +85,7 @@
     Chức năng: Quản lý thống nhất các tác vụ lập lịch trên nền tảng lập lịch tác vụ, chịu trách nhiệm kích hoạt thực thi lập lịch và cung cấp nền tảng quản lý tác vụ.
     ```
 
-  - Bước 1: Cấu hình trung tâm điều phối:
+  - **Bước 1**: Cấu hình trung tâm điều phối:
     
   Địa chỉ file cấu hình trung tâm điều phối:
 
@@ -121,13 +121,27 @@
       xxl.job.logretentiondays=30 
   ```
 
-  - Bước 2: Triển khai dự án:
+  - **Bước 2**: Triển khai dự án:
 
   Nếu cấu hình trên được thực hiện chính xác, dự án có thể được biên dịch, đóng gói và triển khai.
 
   Địa chỉ truy cập trung tâm điều phối: http://localhost:8080/xxl-job-admin (địa chỉ này sẽ được người thi hành sử dụng làm địa chỉ gọi lại)
 
   Tài khoản đăng nhập mặc định là "admin/123456". Sau khi đăng nhập, giao diện chạy như hình bên dưới: 
+
+  <p align="center">
+     <img src="Picture/img_6yC0.png"/>
+  </p>
+
+  - **Bước 3**: Cụm trung tâm điều độ (tùy chọn):
+  Trung tâm điều phối hỗ trợ triển khai cụm để cải thiện khả năng khắc phục thảm họa và tính khả dụng của hệ thống điều phối.
+
+    - Khi triển khai cụm trung tâm điều phối có một số yêu cầu và đề xuất:
+
+       - Cấu hình DB vẫn nhất quán;
+       - Đồng hồ của cụm máy vẫn nhất quán (cụm máy đơn bỏ qua chúng);
+       - Khuyến nghị: Nên sử dụng nginx để cân bằng tải cụm trung tâm điều phối và phân bổ tên miền. Các hoạt động như truy cập trung tâm điều phối, cấu hình lệnh gọi lại của người thực thi và các dịch vụ API gọi điện đều được thực hiện thông qua tên miền này.
+
 
   
   
