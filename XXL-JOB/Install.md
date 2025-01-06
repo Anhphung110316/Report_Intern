@@ -141,6 +141,22 @@
        - Cấu hình DB vẫn nhất quán;
        - Đồng hồ của cụm máy vẫn nhất quán (cụm máy đơn bỏ qua chúng);
        - Khuyến nghị: Nên sử dụng nginx để cân bằng tải cụm trung tâm điều phối và phân bổ tên miền. Các hoạt động như truy cập trung tâm điều phối, cấu hình lệnh gọi lại của người thực thi và các dịch vụ API gọi điện đều được thực hiện thông qua tên miền này.
+     
+### 2.4 Cấu hình và triển khai "xxl-job-executor-example"
+
+Executor Project:xxl-job-executor-example (nếu bạn muốn tạo dự án executor mới, bạn có thể tham khảo bản demo này);
+
+Target:receive xxl-job-admin’s schedule command và thực thi nó;
+
+#### Bước 1:import maven dependency
+Ít nhất hãy xác nhận import xxl-job-core jar in pom.xml;
+
+#### Bước 2: Executor Configuration
+Đường dẫn tương đối của tệp cấu hình executor như sau:
+
+/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/src/main/resources/xxl-job-executor.properties
+
+Nội dung cụ thể của tệp cấu hình như sau:
 
 
   
